@@ -126,7 +126,7 @@ public class ButtonEvent extends JPanel implements ActionListener {
 	 if (p1 == null) {
 		//hieu ung chon icon
 		 	p1 = new Point(x, y);
-			btn[p1.x][p1.y].setBorder(new LineBorder(Color.GREEN));
+			btn[p1.x][p1.y].setBorder(new LineBorder(CBLACKBLACK));
 		}else {
 			p2 = new Point(x, y);
 			line = gpanel.check2Icon(p1, p2);
